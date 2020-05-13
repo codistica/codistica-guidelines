@@ -1,0 +1,50 @@
+{
+  "name": "codistica-guidelines",
+  "version": "0.0.0",
+  "private": true,
+  "description": "There is code and there is beautiful code like there are software companies and there is Codistica.",
+  "keywords": [
+    "codistica, software, development, guidelines, code, quality"
+  ],
+  "author": {
+    "name": "Codistica",
+    "email": "info@codistica.com",
+    "url": "https://github.com/codistica"
+  },
+  "contributors": [
+    {
+      "name": "Ernesto Stifano",
+      "email": "ernesto.stifano@codistica.com",
+      "url": "https://github.com/ernestostifano"
+    },
+    {
+      "name": "Javier Monguilo",
+      "email": "javier.monguilo@codistica.com",
+      "url": "https://github.com/jmonguilo"
+    }
+  ],
+  "homepage": "https://www.codistica.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codistica/codistica-guidelines.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codistica/codistica-guidelines/issues"
+  },
+  "browserslist": [
+    "since 2015"
+  ],
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "codistica-husky-hooks-handlers commit-msg"
+    }
+  },
+  "devDependencies": {
+    "@codistica/husky-hooks-handlers": "^1.0.1",
+    "husky": "^4.2.5"
+  }
+}
